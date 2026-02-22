@@ -5,14 +5,14 @@ Este proyecto es una prueba de concepto que demuestra el enfoque **API Design Fi
 
 ## 🚀 Quick Start 
 
-```sh
+
 pnpm install
 pnpm generate:api
 pnpm generate:web
 pnpm setup:workspace
 pnpm mock:run
 pnpm dev
-```
+
 
 ## Conceptos Fundamentales del Enfoque API Design First
 
