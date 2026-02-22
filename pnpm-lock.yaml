@@ -24,6 +24,9 @@ importers:
       '@workspace/eslint-config':
         specifier: workspace:*
         version: link:packages/eslint-config
+      '@workspace/next-client':
+        specifier: workspace:*
+        version: link:packages/nextjs-client
       '@workspace/typescript-config':
         specifier: workspace:*
         version: link:packages/typescript-config
@@ -230,6 +233,12 @@ importers:
       typescript-eslint:
         specifier: ^8.54.0
         version: 8.54.0(eslint@9.39.2(jiti@2.6.1))(typescript@5.9.3)
+
+  packages/nextjs-client:
+    dependencies:
+      web:
+        specifier: ^0.0.2
+        version: 0.0.2
 
   packages/typescript-config: {}
 
@@ -5621,6 +5630,9 @@ packages:
 
   wcwidth@1.0.1:
     resolution: {integrity: sha512-XHPEwS0q6TaxcvG85+8EYkbiCux2XtWG2mkc47Ng2A77BQu9+DqIOJldST4HgPkuea7dvKSj5VgX3P1d4rW8Tg==}
+
+  web@0.0.2:
+    resolution: {integrity: sha512-DDf86rBor7Hn4uRgXbCxcOKyP8aiokvkd648k/xjKUO4hQSLvupfDC3dHCBXQ4lJFxYW62/CEWpSINbSQRr57A==}
 
   webidl-conversions@3.0.1:
     resolution: {integrity: sha512-2JAn3z8AR6rjK8Sm8orRC0h/bcl/DqL7tRPdGZ4I1CjdF+EaMLmYxBHyXuKL849eucPFhvBoxMsflfOb8kxaeQ==}
@@ -12027,6 +12039,8 @@ snapshots:
   wcwidth@1.0.1:
     dependencies:
       defaults: 1.0.4
+
+  web@0.0.2: {}
 
   webidl-conversions@3.0.1: {}
 

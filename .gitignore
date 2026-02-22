@@ -27,7 +27,9 @@ out/
 build
 dist
 
-
+apps/mobile/build
+apps/mobile/.dart_tool
+apps/mobile/.flutter-plugins
 # Debug
 npm-debug.log*
 
@@ -39,3 +41,5 @@ npm-debug.log*
 /packages/api-stubs/
 /packages/dart-client/
 /packages/next-client/
+/packages/nextjs-client/
+/packages/mock-server/
