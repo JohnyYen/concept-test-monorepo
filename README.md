@@ -5,7 +5,7 @@ Este proyecto es una prueba de concepto que demuestra el enfoque **API Design Fi
 
 ## 🚀 Quick Start 
 
-```shell
+```sh
 pnpm install
 pnpm generate:api
 pnpm generate:web
