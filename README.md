@@ -12,7 +12,7 @@ pnpm generate:web
 pnpm setup:workspace
 pnpm mock:run
 pnpm dev
-````
+```
 
 ## Conceptos Fundamentales del Enfoque API Design First
 
