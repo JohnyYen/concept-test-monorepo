@@ -3,7 +3,7 @@
 
 Este proyecto es una prueba de concepto que demuestra el enfoque **API Design First** para el desarrollo de aplicaciones full-stack. Utiliza especificaciones OpenAPI para generar automáticamente api-stubs, mock servers y clientes API tanto para Next.js como para Dart (Flutter), promoviendo consistencia, eficiencia y colaboración entre equipos de backend y frontend.
 
-## 🚀 Quick Start
+## 🚀 Quick Start 
 
 ```shell
 pnpm install
