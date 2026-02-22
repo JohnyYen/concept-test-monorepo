@@ -1,18 +1,17 @@
-````markdown
 # API Design First Approach - Proof of Concept
 
 Este proyecto es una prueba de concepto que demuestra el enfoque **API Design First** para el desarrollo de aplicaciones full-stack. Utiliza especificaciones OpenAPI para generar automáticamente api-stubs, mock servers y clientes API tanto para Next.js como para Dart (Flutter), promoviendo consistencia, eficiencia y colaboración entre equipos de backend y frontend.
 
 ## 🚀 Quick Start 
 
-
+```sh
 pnpm install
 pnpm generate:api
 pnpm generate:web
 pnpm setup:workspace
 pnpm mock:run
 pnpm dev
-
+```
 
 ## Conceptos Fundamentales del Enfoque API Design First
 
